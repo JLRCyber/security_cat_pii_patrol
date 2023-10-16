@@ -1,0 +1,2043 @@
+{
+  "firstLayout": "",
+  "gdVersion": {
+    "build": 99,
+    "major": 4,
+    "minor": 0,
+    "revision": 0
+  },
+  "properties": {
+    "adaptGameResolutionAtRuntime": true,
+    "folderProject": true,
+    "orientation": "landscape",
+    "packageName": "com.example.gamename",
+    "projectUuid": "28ad1de0-5f31-4e24-93b7-51d837e5c813",
+    "scaleMode": "linear",
+    "sizeOnStartupMode": "",
+    "useExternalSourceFiles": false,
+    "version": "1.0.0",
+    "name": "Security Cat: PII Patrol",
+    "author": "The Security Awareness Company",
+    "windowWidth": 1224,
+    "windowHeight": 768,
+    "latestCompilationDirectory": "/Users/acadmin/Documents/SAC/BobTheBuilder/Games/SecurityCatSCORM",
+    "maxFPS": 60,
+    "minFPS": 20,
+    "verticalSync": false,
+    "platformSpecificAssets": {},
+    "loadingScreen": {
+      "showGDevelopSplash": true
+    },
+    "extensionProperties": [],
+    "platforms": [
+      {
+        "name": "GDevelop JS platform"
+      }
+    ],
+    "currentPlatform": "GDevelop JS platform"
+  },
+  "resources": {
+    "resources": [
+      {
+        "alwaysLoaded": false,
+        "file": "City_Background_Day.jpg",
+        "kind": "image",
+        "metadata": "",
+        "name": "City_Background_Day.jpg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Blue_Title_Background.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Blue_Title_Background.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Logo.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Logo.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "StartFinal1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "StartFinal1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "StartFinal2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "StartFinal2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DifficultyFinal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DifficultyFinal.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DifficultyFinal2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DifficultyFinal2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ReturnFinal.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ReturnFinal.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ReturnFinal2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ReturnFinal2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "LuckiestGuy-Regular.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "LuckiestGuy-Regular.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SelectFinal1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SelectFinal1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SelectFinal2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SelectFinal2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 7@0.75x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 7@0.75x.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1@0.75x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1@0.75x.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 2@0.75x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 2@0.75x.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 3@0.75x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 3@0.75x.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 5@0.75x.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 5@0.75x.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 7@0.75x2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 7@0.75x2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1@0.75x2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1@0.75x2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 2@0.75x2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 2@0.75x2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 3@0.75x2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 3@0.75x2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Right14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Right14.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Right23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Right23.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Right33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Right33.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Right43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Right43.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Right53.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Right53.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Right44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Right44.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Right34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Right34.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Right24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Right24.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Right15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Right15.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Up12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Up12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Up23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Up23.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Up33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Up33.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Up43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Up43.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Up52.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Up52.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Up44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Up44.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Up34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Up34.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Up24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Up24.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Down12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Down12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Down23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Down23.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Down33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Down33.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Down43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Down43.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Down52.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Down52.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Down44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Down44.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Down34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Down34.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Down24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Down24.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Right16.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Right16.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Right25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Right25.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Right35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Right35.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Right45.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Right45.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Right54.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Right54.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Right46.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Right46.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Right36.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Right36.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_Right26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_Right26.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_L1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_L1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_L2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_L2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_L3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_L3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_L4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_L4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_L5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_L5.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_L42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_L42.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_L32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_L32.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Thick_L22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Thick_L22.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle_Thick_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle_Thick_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle_Thick_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle_Thick_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Idle_Thick_3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Idle_Thick_3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Pause_Menu_Final.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Pause_Menu_Final.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MainMenu1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MainMenu1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MainMenu2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MainMenu2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resume1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resume1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Resume2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Resume2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1@0.75x3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1@0.75x3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 2@0.75x3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 2@0.75x3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 3@0.75x3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 3@0.75x3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "home1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "home1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "home2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "home2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "replay1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "replay1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "replay2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "replay2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "exit1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "exit1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "exit2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "exit2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 2@0.75x4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 2@0.75x4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 3@0.75x4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 3@0.75x4.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Winner.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Winner.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "1Star.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "1Star.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "2Star.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "2Star.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "3Star.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "3Star.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "0Star.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "0Star.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "GameOver2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "GameOver2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "YouWon_Thick_Blink23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "YouWon_Thick_Blink23.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "YouWon_Thick_Blink15.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "YouWon_Thick_Blink15.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "OhNo1_Thick4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "OhNo1_Thick4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "Cat_Hiss_Edited.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Cat_Hiss_Edited.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "OhNo2_Thick6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "OhNo2_Thick6.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Hurt13.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Hurt13.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Collect14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Collect14.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fly_Loselife14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fly_Loselife14.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pii.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pii.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tutorial.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tutorial.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "Trexos Bold.ttf",
+        "kind": "font",
+        "metadata": "",
+        "name": "Trexos Bold.ttf",
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tutorial22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tutorial22.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Options_Menu_Final3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Options_Menu_Final3.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 6.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 6.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "QuestionIcon1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "QuestionIcon1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "QuestionIcon2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "QuestionIcon2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Tutorial4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Tutorial4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "4arrowsnav.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "4arrowsnav.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "yellowX.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "yellowX.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "pointer.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "pointer.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NewObject-1-0.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NewObject-1-0.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 22.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ControlPanel.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ControlPanel.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DocumentsPanel2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DocumentsPanel2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "DocumentsPanel3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "DocumentsPanel3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "ScoreFinal4.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "ScoreFinal4.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 14.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 14.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 24.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 24.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HealthFinal9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HealthFinal9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "file": "The Jazz Logo.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "The Jazz Logo.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "AnimalCat_meow.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "AnimalCat_meow.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "Tiny Victory.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "Tiny Victory.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "file": "bubble_pop.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "bubble_pop.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "phoneUIright9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "phoneUIright9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "phoneUIleft9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "phoneUIleft9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "phoneUIup9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "phoneUIup9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "phoneUIdown9.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "phoneUIdown9.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "GVolSelect.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "GVolSelect.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "EasyDef.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "EasyDef.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MedDef.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MedDef.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HardDef.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HardDef.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "CollectTentoWinText.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "CollectTentoWinText.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "QuestionMarkText.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "QuestionMarkText.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TouchYellowX.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TouchYellowX.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "PressAnyKey.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PressAnyKey.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TouchAnywhere.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TouchAnywhere.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "file": "FinalLoopedJazzBackground.mp3",
+        "kind": "audio",
+        "metadata": "",
+        "name": "FinalLoopedJazzBackground.mp3",
+        "preloadAsMusic": false,
+        "preloadAsSound": false,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "PauseIcon1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PauseIcon1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "PauseIcon2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PauseIcon2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HomeIcon1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HomeIcon1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "HomeIcon2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "HomeIcon2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 25.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 25.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 26.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 26.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 32.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 32.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 42.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 42.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 62.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 62.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 43.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 43.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 63.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 63.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 5.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 5.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 27.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 27.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 33.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 33.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 8.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 8.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Yes12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Yes12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Yes22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Yes22.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "No12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "No12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "No22.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "No22.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Finish1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Finish1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Finish2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Finish2.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 10.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 11.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 11.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 122.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 122.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 132.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 132.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 142.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 142.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Address.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Address.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "johnsmith.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "johnsmith.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "creditcardnumber.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "creditcardnumber.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "JANE.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "JANE.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "JOHN2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "JOHN2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "karensmith.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "karensmith.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "socialsecuritynumber.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "socialsecuritynumber.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "passportnumber.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "passportnumber.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "race.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "race.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "RELIGION.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "RELIGION.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "FEMALE.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "FEMALE.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "JOHN.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "JOHN.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "KAREN.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "KAREN.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "NONBINARY.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "NONBINARY.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "TIMEZONE.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "TIMEZONE.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "workplace.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "workplace.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "MALE.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "MALE.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "PHONE.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PHONE.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "INFECTED.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "INFECTED.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "FullName.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "FullName.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Gender.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Gender.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gear_1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gear_1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "gear_2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "gear_2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 35.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 35.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Check1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Check1.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Check2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Check2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 44.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 44.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "FullNameJohn.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "FullNameJohn.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "FULLEMAIL.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "FULLEMAIL.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "FULLEMAIL2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "FULLEMAIL2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "FullNameKaren.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "FullNameKaren.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "PhoneNumberFull.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "PhoneNumberFull.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Fingerprint.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Fingerprint.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 5@0.75x2.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 5@0.75x2.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "SHIRTCOLOR.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "SHIRTCOLOR.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 1.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 1.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 23.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 23.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 3.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 3.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 64.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 64.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 28.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 28.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 34.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 34.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 65.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 65.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 37.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 37.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "Asset 45.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "Asset 45.png",
+        "smoothed": true,
+        "userAdded": false
+      }
+    ],
+    "resourceFolders": []
+  },
+  "objects": [],
+  "objectsGroups": [],
+  "variables": [
+    {
+      "name": "Difficulty",
+      "type": "string",
+      "value": "2"
+    },
+    {
+      "name": "score_link",
+      "type": "string",
+      "value": ""
+    },
+    {
+      "name": "continue",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "GFXsound",
+      "type": "string",
+      "value": "25"
+    },
+    {
+      "name": "SFXsound",
+      "type": "string",
+      "value": "50"
+    },
+    {
+      "name": "scormBuild",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "TutorialViewed",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "ViewMobileControls",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "name": "version",
+      "type": "string",
+      "value": "1.0.0"
+    }
+  ],
+  "layouts": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/prescene"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/title"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/settings"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/difficulty"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/tutorial"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/tutorial1-welcome"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/tutorial2-touch-yellow-x2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/tutorial2-touch-yellow-x"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/tutorial3-choose-the-pii2"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/tutorial3-5--what-is-pii"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/tutorial4-touch-the-pii"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/tutorial4-5-not-quite"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/tutorial4-5b--what-is-pii"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/tutorial5-touch-the-pii-retry"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/tutorial6-tutorial-end"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/game"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/gamepause"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/game-over"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/you-win"
+    },
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/layouts/you-win-continued"
+    }
+  ],
+  "externalEvents": [],
+  "eventsFunctionsExtensions": [
+    {
+      "__REFERENCE_TO_SPLIT_OBJECT": true,
+      "referenceTo": "/eventsFunctionsExtensions/pii"
+    }
+  ],
+  "externalLayouts": [],
+  "externalSourceFiles": []
+}
